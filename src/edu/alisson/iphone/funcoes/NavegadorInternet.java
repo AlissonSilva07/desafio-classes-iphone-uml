@@ -2,10 +2,10 @@ package edu.alisson.iphone.funcoes;
 
 public interface NavegadorInternet {
 
-	abstract void exibirPagina();
+	public void exibirPagina();
 
-	public abstract boolean adicionarNovaAba();
+	public void adicionarNovaAba(int idAba);
 
-	public abstract void atualizarPagina(boolean atualizar);
+	public void atualizarPagina(boolean atualizar);
 
 }

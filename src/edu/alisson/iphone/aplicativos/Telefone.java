@@ -16,6 +16,7 @@ public class Telefone implements AparelhoTelefonico {
 
 	@Override
 	public void ligar(long numeroDestinatario) {
+		this.numeroDestinatario = numeroDestinatario;
 		System.out.println("Ligando para o número " + numeroDestinatario);
 	}
 
