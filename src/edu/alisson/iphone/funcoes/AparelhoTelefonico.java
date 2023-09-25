@@ -4,8 +4,8 @@ public interface AparelhoTelefonico {
 
 	public void ligar(long numeroDestinatario);
 
-	abstract void atender();
+	public void atender();
 
-	abstract void iniciarCorreioVoz();
+	public void iniciarCorreioVoz();
 
 }
