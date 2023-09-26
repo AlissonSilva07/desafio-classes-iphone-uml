@@ -14,8 +14,6 @@ public class AppleMusic implements ReprodutorMusical {
 
 	private int volumeAtual;
 
-	private int telaVirada;
-
 	public void selecionarMusica(String idMusica) {
 		System.out.println("Você selecionou a música " + idMusica);
 	};
@@ -35,12 +33,14 @@ public class AppleMusic implements ReprodutorMusical {
 	}
 
 	@Override
-	public void volumeUp(int volumeAtual) {
+	public void volumeUp() {
+		this.volumeAtual ++;
 		System.out.println("O volume foi aumentado para " + volumeAtual);
 	}
 
 	@Override
-	public void volumeDown(int volumeAtual) {
+	public void volumeDown() {
+		this.volumeAtual --;
 		System.out.println("O volume foi diminuido para " + volumeAtual);
 	}
 

@@ -6,8 +6,8 @@ public interface ReprodutorMusical {
 
 	public void pausar();
 
-	public void volumeUp(int volumeAtual);
+	public void volumeUp();
 
-	public void volumeDown(int volumeAtual);
+	public void volumeDown();
 
 }
